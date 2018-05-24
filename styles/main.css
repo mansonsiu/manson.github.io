@@ -22,6 +22,7 @@
    -webkit-font-smoothing: antialiased;
    top: 6px;
    position: relative;
+   margin-right: 10px;
  }
 
 html, body {
@@ -38,12 +39,11 @@ html, body {
 
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px 0px 10px 0px;
+    padding: 0px 0px 15px 0px;
     list-style: none;
     font-weight: bold;
 }
 nav ul li, footer ul li {
-    display: inline;
     margin-right: 20px;
 }
 a {
