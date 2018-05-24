@@ -22,7 +22,7 @@
    -webkit-font-smoothing: antialiased;
    top: 6px;
    position: relative;
-   width: 35px;
+   width: 30px;
  }
 
 html, body {
@@ -44,8 +44,9 @@ nav ul, footer ul {
     font-weight: bold;
 }
 nav ul li, footer ul li {
-    margin-right: 20px;
+    margin-right: 30px;
     padding-bottom: 10px;
+    display: inline;
 }
 a {
     text-decoration: none;
