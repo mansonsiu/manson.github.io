@@ -2,10 +2,10 @@ body {
     margin: 60px auto;
     width: 70%;
     font-family: 'Merriweather', Georgia, Times;
-    font-size: 14px;
+    font-size: 12px;
 }
 nav ul, footer ul {
-    #font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -37,7 +37,7 @@ footer {
 
 ul.posts { 
     margin: 20px auto 40px; 
-    font-size: 1.5em;
+    #font-size: 1.5em;
 }
 
 ul.posts li {
