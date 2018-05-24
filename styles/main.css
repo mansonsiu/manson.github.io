@@ -38,7 +38,7 @@ html, body {
 
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
+    padding: 0px 0px 10px 0px;
     list-style: none;
     font-weight: bold;
 }
