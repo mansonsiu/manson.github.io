@@ -20,12 +20,7 @@
    direction: ltr;
    -webkit-font-feature-settings: 'liga';
    -webkit-font-smoothing: antialiased;
- }
-
- .material-icons {
-   font-size: 300px;
-   top: 80px;
-   right: 30px;
+   top: 6px;
    position: relative;
  }
 
