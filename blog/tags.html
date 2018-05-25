@@ -19,7 +19,7 @@ title: All Tags
 </ul>
 {% endfor %}
 	
-{% for tag1 in site.tags %}
+{% for tag1 in post.tags %}
 <h2>{{ tag1 }}</h2>
 <ul>
 {% for post in site.tags[tag1] %}
