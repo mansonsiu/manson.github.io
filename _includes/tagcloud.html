@@ -4,7 +4,8 @@
   {% endfor %}
 {% endcapture %}
 {% assign sortedtemptags = temptags | split:' ' | sort | reverse %}
-<ul class="tagcloud">
+<div class="tagcloud">
+<ul>
 {% for temptag in sortedtemptags %}
   {% assign tagitems = temptag | split: '#' %}
   {% capture tagname %}{{ tagitems[1] }}{% endcapture %}
@@ -13,3 +14,4 @@
   </li>
 {% endfor %}
 </ul>
+</div>
