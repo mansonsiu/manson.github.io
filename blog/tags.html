@@ -1,6 +1,6 @@
 ---
 layout: default
-title: All Tags 5
+title: All Tags 6
 ---
 	<h1>{{ page.title }}</h1>
 
@@ -11,36 +11,21 @@ title: All Tags 5
 <div class="post">
 
 
-{% for temptag in sortedtemptags %}
-  {% assign tagitems = temptag | split: '#' %}
-  {% capture tagname %}{{ tagitems[1] }}{% endcapture %}
-	<h2 id="{{ tagname | slugify }}">{{ tagname }}</h2>
-	<ul class="tags-expo-posts">	    
-      {% for post in site.tags[tagname] %}
-        <a class="post-title" href="{{ site.baseurl }}{{ post.url }}">
-      <li>
-        {{ post.title }}
-      		(<small class="post-date">{{ post.date | date_to_string }}</small>)
-      </li>
-      </a>
-      {% endfor %}
-    </ul>
-{% endfor %}
-	    
-	    
-    {% for tag in site.tags %}
-    <h2 id="{{ tag[0] | slugify }}">{{ tag[0] }}</h2>
-    <ul class="tags-expo-posts">	    
-      {% for post in tag[1] %}
-        <a class="post-title" href="{{ site.baseurl }}{{ post.url }}">
-      <li>
-        {{ post.title }}
-      		(<small class="post-date">{{ post.date | date_to_string }}</small>)
-      </li>
-      </a>
-      {% endfor %}
-    </ul>
-    {% endfor %}
+	{% for temptag in sortedtemptags %}
+	  {% assign tagitems = temptag | split: '#' %}
+	  {% capture tagname %}{{ tagitems[1] }}{% endcapture %}
+		<h2 id="{{ tagname | slugify }}">{{ tagname }}</h2>
+		<ul class="tags-expo-posts">	    
+	      {% for post in site.tags[tagname] %}
+		<a class="post-title" href="{{ site.baseurl }}{{ post.url }}">
+	      <li>
+		{{ post.title }}
+			(<small class="post-date">{{ post.date | date_to_string }}</small>)
+	      </li>
+	      </a>
+	      {% endfor %}
+	    </ul>
+	{% endfor %}
 
 </div>
 <hr>
