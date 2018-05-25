@@ -2,6 +2,7 @@
 layout: post
 title: "Release Note"
 date: 2018-05-29
+tags: [web, jekyll]
 ---
 
 release note.
