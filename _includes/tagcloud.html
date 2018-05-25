@@ -4,8 +4,12 @@
   {% endfor %}
 {% endcapture %}
 {% assign sortedtemptags = temptags | split:' ' | sort | reverse %}
+<ul class="tagcloud">
 {% for temptag in sortedtemptags %}
   {% assign tagitems = temptag | split: '#' %}
   {% capture tagname %}{{ tagitems[1] }}{% endcapture %}
+  <li>
   <a class="tag" href="/blog/tags#{{ tagname | slugify }}"><i class="material-icons">local_offer</i><code class="highligher-rouge"><nobr>{{ tagname }}</nobr></code></a>
+  </li>
 {% endfor %}
+</ul>
