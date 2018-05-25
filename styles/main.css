@@ -37,7 +37,7 @@ html, body {
     text-align: center;
 }
 
-.tagcloud ul
+.tagcloud ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px 0px 15px 0px;
     list-style: none;
