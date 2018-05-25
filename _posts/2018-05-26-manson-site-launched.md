@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Manson Siu, aieio, Site Launch"
-date: 2018-05-25
+date: 2018-05-26
 tags: [web, jekyll, release, web3]
 ---
 
