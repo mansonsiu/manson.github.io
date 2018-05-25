@@ -14,6 +14,7 @@ title: All Tags 5
 {% for temptag in sortedtemptags %}
   {% assign tagitems = temptag | split: '#' %}
   {% capture tagname %}{{ tagitems[1] }}{% endcapture %}
+	<h2 id="{{ tagname | slugify }}">{{ tagname }}</h2>
 	<ul class="tags-expo-posts">	    
       {% for post in site.tags[tagname] %}
         <a class="post-title" href="{{ site.baseurl }}{{ post.url }}">
