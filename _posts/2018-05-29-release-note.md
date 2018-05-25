@@ -3,6 +3,7 @@ layout: post
 title: "Release Note"
 date: 2018-05-29
 tags: [web, jekyll]
+tag: [web1, j1]
 ---
 
 release note.
