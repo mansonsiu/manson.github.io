@@ -28,9 +28,12 @@
 
 		</head>
 		<body>
+			{% if header != "" %}
 			<nav>
-
+			{{ header }}
 			</nav>
+			{% endif %}
+			
 			<div class="container">
 			
 			{{ content }}
