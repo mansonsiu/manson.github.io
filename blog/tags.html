@@ -15,7 +15,7 @@ title: All Tags 5
   {% assign tagitems = temptag | split: '#' %}
   {% capture tagname %}{{ tagitems[1] }}{% endcapture %}
 	<ul class="tags-expo-posts">	    
-      {% for post in tagname %}
+      {% for post in tagitems[1] %}
         <a class="post-title" href="{{ site.baseurl }}{{ post.url }}">
       <li>
         {{ post.title }}
