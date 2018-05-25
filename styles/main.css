@@ -37,6 +37,19 @@ html, body {
     text-align: center;
 }
 
+.tagcloud ul
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px 0px 15px 0px;
+    list-style: none;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+tagcloud ul li {
+    margin-right: 30px;
+    padding-bottom: 10px;
+    display: inline;
+}
+
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px 0px 15px 0px;
