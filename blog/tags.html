@@ -10,21 +10,19 @@ title: All Tags
 
 <div class="post">
 
-{% for tag in site.tags %}
-<h2>{{ tag }}</h2>
-<ul>
-{% for tag1 in site.tags[tag] %}
-     {% for post in tag1[1] %}
+    {% for tag in site.tags %}
+    <h2 id="{{ tag[0] | slugify }}">{{ tag[0] }}</h2>
+    <ul class="tags-expo-posts">
+      {% for post in tag[1] %}
         <a class="post-title" href="{{ site.baseurl }}{{ post.url }}">
       <li>
         {{ post.title }}
       <small class="post-date">{{ post.date | date_to_string }}</small>
       </li>
       </a>
-     {% endfor %}
-{% endfor %}
-</ul>
-{% endfor %}
+      {% endfor %}
+    </ul>
+    {% endfor %}
 
 </div>
 <hr>
