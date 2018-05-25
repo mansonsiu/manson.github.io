@@ -15,9 +15,7 @@ tags: [jekyll, test, web]
 <h2>{{ tag }}</h2>
 <ul>
 {% for post in site.tags[tag] %}
-  <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date_to_string }})<br>
-    {{ post.description }}
-  </li>
+  <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date_to_string }})</li>
 {% endfor %}
 </ul>
 {% endfor %}
