@@ -41,8 +41,7 @@ html, body {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px 0px 15px 0px;
     list-style: none;
-    font-weight: bold;
-    font-size: 0.8em;
+    font-size: 1.2em;
 }
 
 .tagcloud ul li {
