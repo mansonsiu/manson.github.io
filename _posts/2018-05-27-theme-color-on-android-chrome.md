@@ -55,7 +55,7 @@ __Bold__
 __Bold__
 
 ***
-# Quotes
+## Quotes
 ```
 > Quoted Text Line 1
 > Quoted Text Line 2
@@ -65,7 +65,7 @@ __Bold__
 > Quoted Text Line 2
 
 ***
-# Lists - Bulletd List
+## Lists - Bulletd List
 ```
 * bullet 1
 * bullet 2
@@ -81,7 +81,7 @@ __Bold__
 * bullet 3
 
 ***
-# Lists - Numbered List
+## Lists - Numbered List
 
 ```
 1. Numbered Item 1
@@ -94,7 +94,7 @@ __Bold__
 3. Numbered Item 3
 
 ***
-# Table
+## Table
 ```
 | Column Header 1 | Column Header 2 |
 | --- | --- |
@@ -108,7 +108,7 @@ __Bold__
 | cell 3 | cell 4 |
 
 ***
-# Image
+## Image
 ```
 ![Alt text](/pathto/image)
 ```
