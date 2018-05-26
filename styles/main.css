@@ -169,6 +169,9 @@ ul, ol {
 li+li {
     margin-top: .25em;
 }
+ul li, ol li {
+    line-height: 2em;
+}
 
 ul.posts { 
     font-size: 1.4em;
