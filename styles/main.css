@@ -140,13 +140,13 @@ ul.posts li {
 }
 
 h2.tag-posts {
-    padding-top: 5px;
+    padding-top: 25px;
     padding-bottom: 0px;
 }
 ul.tag-posts { 
     font-size: 1.2em;
     line-height: 1.5em;
-    margin: 10px 25px 10px 25px; 
+    margin: 0px 25px 0px 25px; 
 }
 ul.tag-posts li {
     list-style: none;
