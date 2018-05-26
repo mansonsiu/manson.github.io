@@ -135,6 +135,9 @@ blockquote {
     color: #6a737d;
     border-left: 0.25em solid #dfe2e5;
 }
+blockquote p {
+    font-color: #999;
+}
 
 pre {
     background-color: #faf7f5;
