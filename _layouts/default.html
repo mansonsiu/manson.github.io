@@ -44,25 +44,5 @@
 	    		</ul>
 			© aieio
 			</footer>
-			
-			<script>
-			var themeColorTest = new function () {
-				var me = this;
-				me.init = function () {
-					//$title = document.querySelector("title");
-					$themeColor = document.querySelector("meta[name='theme-color']");
-					startAnim();
-				};
-				function startAnim() {
-					if($themeColor.content === '#fbeec1') {
-						$themeColor.content = '#bc986a';
-					} else {
-						$themeColor.content = '#fbeec1';
-					}		
-					setTimeout(startAnim, 500);
-				}
-			}
-			themeColorTest.init();
-		</script>
 		</body>
 	</html>
