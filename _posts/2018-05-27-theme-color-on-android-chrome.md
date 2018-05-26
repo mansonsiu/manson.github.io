@@ -13,3 +13,6 @@ tags: [development]
 | a | b |
 | a | b |
 
+![Alt text](https://developers.google.com/web/updates/images/2014/11/theme-color-ss.png)
+
+![Alt text](/images/download.png)
