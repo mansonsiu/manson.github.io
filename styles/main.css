@@ -170,7 +170,7 @@ li+li {
     margin-top: .25em;
 }
 ul li, ol li {
-    line-height: 2em;
+    line-height: 1.5em;
 }
 
 ul.posts { 
