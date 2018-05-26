@@ -33,7 +33,7 @@
 }
 
 p {
-  line-height: 1.4em;
+  line-height: 2.0em;
 }
 h1 {
   padding-bottom: 10px;
@@ -131,13 +131,13 @@ blockquote {
     margin: 10px 0px;
 }
 blockquote p {
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 table {
     border-collapse: collapse;
     margin: 15px 0px;
-    font-size: 0.8em;
+    font-size: 0.9em;
 }
 td, th {
     border: 1px solid #999;
@@ -152,6 +152,7 @@ pre {
     overflow: auto;
     font-family: 'Monaco', monospace;
     padding: 0.5em 1em;
+    margin: 1em 0px;
 }
 pre code {
     border: none;
