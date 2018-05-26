@@ -33,6 +33,7 @@ __Bold__
 > Quoted Text Line 2
 
 
+
 ```
 * bullet 1
 * bullet 2
@@ -47,6 +48,7 @@ __Bold__
 * bullet 3
 
 
+
 ```
 1. Numbered Item 1
 2. Numbered Item 2
@@ -57,6 +59,7 @@ __Bold__
 3. Numbered Item 3
 
 
+
 ```
 | Column Header 1 | Column Header 2 |
 | --- | --- |
@@ -64,9 +67,10 @@ __Bold__
 | cell 3 | cell 4 |
 ```
 | Column Header 1 | Column Header 2 |
-| --- | --- |
+| ----- | ----- |
 | cell 1 | cell 2 |
 | cell 3 | cell 4 |
+
 
 
 ```
