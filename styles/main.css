@@ -179,6 +179,9 @@ ul li, ol li {
     line-height: 1.5em;
 }
 
+div.posts p {
+    font-size: 1.2em;  
+}
 ul.posts { 
     font-size: 1.4em;
     line-height: 2.0em;
