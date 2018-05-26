@@ -14,6 +14,7 @@ _Italic_
 
 _Italic_
 
+
 ```
 **Bold**
 
@@ -23,12 +24,14 @@ __Bold__
 
 __Bold__
 
+
 ```
 > Quoted Text Line 1
 > Quoted Text Line 2
 ```
 > Quoted Text Line 1
 > Quoted Text Line 2
+
 
 ```
 * bullet 1
@@ -43,6 +46,7 @@ __Bold__
   * sub-bullet 2
 * bullet 3
 
+
 ```
 1. Numbered Item 1
 2. Numbered Item 2
@@ -51,6 +55,7 @@ __Bold__
 1. Numbered Item 1
 2. Numbered Item 2
 3. Numbered Item 3
+
 
 ```
 | Column Header 1 | Column Header 2 |
@@ -62,8 +67,10 @@ __Bold__
 | --- | --- |
 | cell 1 | cell 2 |
 | cell 3 | cell 4 |
+
 
 ```
 ![Alt text](/pathto/image)
 ```
 ![Alt text](/images/download.png)
+
