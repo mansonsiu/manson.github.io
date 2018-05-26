@@ -16,12 +16,12 @@ title: All Tags
 		<h2 id="{{ tagname | slugify }}">{{ tagname }}</h2>
 		<ul class="tag-posts">	    
 	      {% for post in site.tags[tagname] %}
-		<a class="post-title" href="{{ site.baseurl }}{{ post.url }}">
 	      <li>
-		{{ post.title }}
+		      <a class="post-title" href="{{ site.baseurl }}{{ post.url }}">
+			{{ post.title }}
 			(<small class="post-date">{{ post.date | date_to_string }}</small>)
+		      </a>
 	      </li>
-	      </a>
 	      {% endfor %}
 	    </ul>
 	{% endfor %}
