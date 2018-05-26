@@ -6,6 +6,12 @@ tags: [development, markdown]
 ---
 
 ```
+***
+```
+
+***
+
+```
 *Italic*
 
 _Italic_
@@ -15,6 +21,7 @@ _Italic_
 
 _Italic_
 
+***
 
 ```
 **Bold**
