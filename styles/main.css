@@ -115,14 +115,14 @@ a:hover {
     text-decoration: underline;
 }
 h1 {
-    font-size: 3em;
+    font-size: 2em;
     #font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 
 header {
     margin-bottom: 40px;
     border-bottom: 1px solid #d5d5d5;
-    font-size: 1em;
+    font-size: 12px;
 }
 footer {
     margin-top: 40px;
@@ -144,6 +144,7 @@ div.post blockquote p {
 div.post p {
     font-size: 1.2em;  
     padding-bottom: 1em;
+    line-height: 1.6em;
 }
 
 div.post pre {
