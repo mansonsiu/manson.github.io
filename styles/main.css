@@ -35,6 +35,8 @@
 p {
   padding-top: 10px;
   padding-bottom: 10px;
+  font-size: 1.5em;
+  line-height: 1.4em;
 }
 h1 {
   padding-bottom: 10px;
@@ -114,11 +116,7 @@ h1 {
     font-size: 3em;
     #font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}
+
 header {
     margin-bottom: 40px;
     border-bottom: 1px solid #d5d5d5;
