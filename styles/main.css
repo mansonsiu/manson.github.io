@@ -73,7 +73,6 @@ h2 {
 
 html, body {
     font-family: 'Merriweather', Georgia, Times;
-    font-size: 12px;
 }
 
 .banner {
@@ -127,7 +126,7 @@ footer {
 }
 
 blockquote {
-    padding: 3px 1.5em;
+    padding: 3px 0.8em;
     color: #6a737d;
     border-left: 0.3em solid #dfe2e5;
     margin: 10px 0px;
@@ -135,8 +134,8 @@ blockquote {
 
 table {
     border-collapse: collapse;
-    font-size: 1.2em;
     margin: 15px 0px;
+    font-size: 0.8em;
 }
 td, th {
     border: 1px solid #999;
