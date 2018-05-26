@@ -130,6 +130,15 @@ footer {
     font-size: 1em;
 }
 
+pre code {
+    border: none;
+    background: none;
+    line-height: 1em;
+    letter-spacing: normal;
+    word-break: break-all;
+    overflow: auto;
+}
+
 ul.posts { 
     font-size: 1.4em;
     line-height: 2.0em;
