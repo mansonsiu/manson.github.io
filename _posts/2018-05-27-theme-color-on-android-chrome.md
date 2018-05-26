@@ -5,12 +5,14 @@ date: 2018-05-27
 tags: [development, markdown]
 ---
 
+## Ruler
 ```
 ***
 ```
 
 ***
 
+## Headings
 ```
 # H1
 ## H2
