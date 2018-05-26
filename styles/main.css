@@ -130,37 +130,28 @@ footer {
     font-size: 12px;
 }
 
-blockquote {
+div.post blockquote {
     padding: 3px 1.2em;
     color: #6a737d;
     border-left: 0.3em solid #dfe2e5;
     margin: 10px 0px;
 }
-blockquote p {
+div.post blockquote p {
     font-size: 1.2em;
 }
 
-table {
-    border-collapse: collapse;
-    margin: 15px 0px;
-    font-size: 0.9em;
-}
-td, th {
-    border: 1px solid #999;
-    padding: 6px 13px;
-}
-tr:nth-child(2n) {
-    background-color: #f6f8fa;
+div.post p {
+    font-size: 1.2em;  
 }
 
-pre {
+div.post pre {
     background-color: #faf7f5;
     overflow: auto;
     font-family: 'Monaco', monospace;
     padding: 0.5em 1em;
     margin: 1em 0px;
 }
-pre code {
+div.post pre code {
     border: none;
     background: none;
     line-height: 1em;
@@ -169,19 +160,29 @@ pre code {
     font-size: 1.2em;
 }
 
-ul, ol {
+div.post table {
+    border-collapse: collapse;
+    margin: 15px 0px;
+    font-size: 0.9em;
+}
+div.post td, th {
+    border: 1px solid #999;
+    padding: 6px 13px;
+}
+div.post tr:nth-child(2n) {
+    background-color: #f6f8fa;
+}
+
+div.post ul, ol {
     padding-left: 2em;
 }
-li+li {
+div.post li+li {
     margin-top: .25em;
 }
-ul li, ol li {
+div.post ul li, ol li {
     line-height: 1.5em;
 }
 
-div.post p {
-    font-size: 1.2em;  
-}
 ul.posts { 
     font-size: 1.0em;
     line-height: 2.0em;
