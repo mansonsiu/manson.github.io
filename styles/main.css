@@ -137,6 +137,7 @@ blockquote {
 table {
     border-collapse: collapse;
     font-size: 1.2em;
+    margin: 15px 0px;
 }
 td, th {
     border: 1px solid #999;
