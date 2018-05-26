@@ -138,10 +138,12 @@ div.post blockquote {
 }
 div.post blockquote p {
     font-size: 1.2em;
+    padding: 0px;
 }
 
 div.post p {
     font-size: 1.2em;  
+    padding-bottom: 1em;
 }
 
 div.post pre {
