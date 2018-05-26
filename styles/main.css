@@ -33,7 +33,6 @@
 }
 
 p {
-  font-size: 1.5em;
   line-height: 1.4em;
 }
 h1 {
@@ -126,10 +125,13 @@ footer {
 }
 
 blockquote {
-    padding: 3px 0.8em;
+    padding: 3px 1.2em;
     color: #6a737d;
     border-left: 0.3em solid #dfe2e5;
     margin: 10px 0px;
+}
+blockquote p {
+    font-size: 1.3em;
 }
 
 table {
