@@ -205,7 +205,6 @@ h2.tag-posts {
 ul.tag-posts { 
     font-size: 1.2em;
     line-height: 1.5em;
-    margin: 0px 25px 0px 25px; 
 }
 ul.tag-posts li {
     list-style: none;
