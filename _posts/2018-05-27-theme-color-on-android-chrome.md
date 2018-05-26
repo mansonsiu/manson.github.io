@@ -5,14 +5,14 @@ date: 2018-05-27
 tags: [development, markdown]
 ---
 
-## Ruler
+# Ruler
 ```
 ***
 ```
 
 ***
 
-## Headings
+# Headings
 ```
 # H1
 ## H2
@@ -29,8 +29,7 @@ tags: [development, markdown]
 ##### H5
 ###### H6
 
-***
-
+# Italic
 ```
 *Italic*
 
@@ -41,8 +40,7 @@ _Italic_
 
 _Italic_
 
-***
-
+# Bold
 ```
 **Bold**
 
