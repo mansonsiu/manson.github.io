@@ -131,10 +131,10 @@ footer {
 }
 
 pre {
-    background-color: #D1D1D0;
+    background-color: ##faf7f5;
     overflow: auto;
     font-family: 'Monaco', monospace;
-    padding: 0 1em;
+    padding: 0.5em 1em;
 }
 pre code {
     border: none;
@@ -142,6 +142,7 @@ pre code {
     line-height: 1em;
     letter-spacing: normal;
     word-break: break-all;
+    font-size: 1.2em;
 }
 
 ul.posts { 
