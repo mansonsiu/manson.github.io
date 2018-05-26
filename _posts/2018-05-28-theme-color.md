@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Blog Site Launch"
+title: "Theme Color"
 date: 2018-05-28
 tags: [development]
 ---
