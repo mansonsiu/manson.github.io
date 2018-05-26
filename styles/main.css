@@ -27,6 +27,11 @@
   }
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 /* fallback */
  @font-face {
    font-family: 'Material Icons';
