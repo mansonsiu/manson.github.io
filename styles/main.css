@@ -3,10 +3,11 @@
       margin: 20px auto;
       margin-top: 20px;
       width: 90%;
-      footer ul li {
-        margin-right: 10px;
-        display: none;
-      }
+  }
+  footer ul li {
+      margin-right: 10px;
+      display: none;
+  }
 }
 @media screen and (min-width: 800px) {
   html, body {
