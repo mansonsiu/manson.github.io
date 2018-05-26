@@ -6,7 +6,7 @@
   }
   nav ul li, footer ul li {
       margin-right: 10px;
-      display: none;
+      display: block;
   }
 }
 @media screen and (min-width: 800px) {
