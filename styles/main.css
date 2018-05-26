@@ -134,16 +134,18 @@ blockquote {
     border-left: 0.25em solid #dfe2e5;
 }
 
-td, th {
-    border: 1px solid grey
+table {
+  border-collapse: collapse:
 }
-table tr:nth-child(2n) {
+td, th {
+    border: 1px solid #999;
+}
+tr:nth-child(2n) {
     background-color: #f6f8fa;
 }
-table td {
+td {
     padding: 6px 13px;
 }
-
 
 pre {
     background-color: #faf7f5;
