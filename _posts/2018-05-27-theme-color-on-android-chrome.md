@@ -67,9 +67,9 @@ __Bold__
 | cell 3 | cell 4 |
 ```
 | Column Header 1 | Column Header 2 |
-| ----- | ----- |
-| cell 1 | cell 2 |
-| cell 3 | cell 4 |
+| -----           | -----           |
+| cell 1          | cell 2          |
+| cell 3          | cell 4          |
 
 
 
