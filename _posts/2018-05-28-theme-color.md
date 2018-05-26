@@ -13,23 +13,23 @@ There is another cool way of using the Theme Color with animation. I am using an
 
 Script of the Theme Color Animation Effect
 ```
-    		<script>
-			var themeColorTest = new function () {
-				var me = this;
-				me.init = function () {
-					//$title = document.querySelector("title");
-					$themeColor = document.querySelector("meta[name='theme-color']");
-					startAnim();
-				};
-				function startAnim() {
-					if($themeColor.content === '#fc4445') {
-						$themeColor.content = '#ff0000';
-					} else {
-						$themeColor.content = '#fc4445';
-					}
-					setTimeout(startAnim, 500);
-				}
-			}
-			themeColorTest.init();
-		</script>
+<script>
+var themeColorTest = new function () {
+var me = this;
+me.init = function () {
+  //$title = document.querySelector("title");
+  $themeColor = document.querySelector("meta[name='theme-color']");
+  startAnim();
+};
+function startAnim() {
+  if($themeColor.content === '#fc4445') {
+    $themeColor.content = '#ff0000';
+  } else {
+    $themeColor.content = '#fc4445';
+  }
+  setTimeout(startAnim, 500);
+}
+}
+themeColorTest.init();
+</script>
 ```
