@@ -43,9 +43,6 @@ h2 {
   padding-top: 5px;
   padding-bottom: 5px;
 }
-ul.tag-posts { 
-  margin: 10px 5px 10px 5px; 
-}
 
 /* fallback */
  @font-face {
@@ -142,12 +139,15 @@ ul.posts li {
     list-style: none;
 }
 
+h2.tag-posts {
+    padding-top: 5px;
+    padding-bottom: 0px;
+}
 ul.tag-posts { 
     font-size: 1.2em;
     line-height: 1.5em;
     margin: 10px 25px 10px 25px; 
 }
-
 ul.tag-posts li {
     list-style: none;
 }
