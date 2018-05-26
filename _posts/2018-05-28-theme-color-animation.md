@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Theme Color"
+title: "Theme Color Animation on Android Chrome"
 date: 2018-05-28
 tags: [development]
 ---
