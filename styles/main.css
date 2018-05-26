@@ -32,6 +32,11 @@
   padding: 0;
 }
 
+p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 /* fallback */
  @font-face {
    font-family: 'Material Icons';
