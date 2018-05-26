@@ -11,3 +11,25 @@ Just found out a way of switching Theme Color of the Android Chrome. If you don'
 
 There is another cool way of using the Theme Color with animation. I am using an animation script to drive a flashing alert effect, on site error. You can try out [here](/no-such-page.html) .
 
+Script of the Theme Color Animation Effect
+```
+    		<script>
+			var themeColorTest = new function () {
+				var me = this;
+				me.init = function () {
+					//$title = document.querySelector("title");
+					$themeColor = document.querySelector("meta[name='theme-color']");
+					startAnim();
+				};
+				function startAnim() {
+					if($themeColor.content === '#fc4445') {
+						$themeColor.content = '#ff0000';
+					} else {
+						$themeColor.content = '#fc4445';
+					}
+					setTimeout(startAnim, 500);
+				}
+			}
+			themeColorTest.init();
+		</script>
+```
