@@ -141,7 +141,7 @@ ul.posts li {
 
 h2.tag-posts {
     padding-top: 25px;
-    padding-bottom: 0px;
+    padding-bottom: 5px;
 }
 ul.tag-posts { 
     font-size: 1.2em;
