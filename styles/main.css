@@ -162,6 +162,13 @@ pre code {
     font-size: 1.2em;
 }
 
+ul, ol {
+    padding-left: 2em;
+}
+li+li {
+    margin-top: .25em;
+}
+
 ul.posts { 
     font-size: 1.4em;
     line-height: 2.0em;
