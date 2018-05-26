@@ -130,6 +130,9 @@ footer {
     font-size: 12px;
 }
 
+div.post {
+  margin-top: 10px;
+}
 div.post blockquote {
     padding: 3px 1.2em;
     color: #6a737d;
