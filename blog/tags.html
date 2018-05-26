@@ -17,6 +17,7 @@ title: All Tags
 		<ul class="tag-posts">	    
 	      {% for post in site.tags[tagname] %}
 	      <li>
+		      <i class="material-icons">chat_bubble_outline</i> 
 		      <a class="post-title" href="{{ site.baseurl }}{{ post.url }}">
 			{{ post.title }}
 			(<small class="post-date">{{ post.date | date_to_string }}</small>)
