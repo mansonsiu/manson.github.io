@@ -1,31 +1,69 @@
 ---
 layout: post
-title: "Theme Color on Android Chrome"
+title: "Markdown Quick Reference"
 date: 2018-05-27
-tags: [development]
+tags: [development, markdown]
 ---
 
-> Quote test
-> test 2
+```
+*Italic*
 
-* a
-* b
-* c
-  * a1
-  * a2
-* d
+_Italic_
+```
+*Italic*
 
-1. a
-2. b
-  1. a1
-3. c
+_Italic_
 
+```
+**Bold**
 
-| One of the cool | adsf |
+__Bold__
+```
+**Bold**
+
+__Bold__
+
+```
+> Quoted Text Line 1
+> Quoted Text Line 2
+```
+> Quoted Text Line 1
+> Quoted Text Line 2
+
+```
+* bullet 1
+* bullet 2
+  * sub-bullet 1
+  * sub-bullet 2
+* bullet 3
+```
+* bullet 1
+* bullet 2
+  * sub-bullet 1
+  * sub-bullet 2
+* bullet 3
+
+```
+1. Numbered Item 1
+2. Numbered Item 2
+3. Numbered Item 3
+```
+1. Numbered Item 1
+2. Numbered Item 2
+3. Numbered Item 3
+
+```
+| Column Header 1 | Column Header 2 |
 | --- | --- |
-| a | b |
-| a | b |
+| cell 1 | cell 2 |
+| cell 3 | cell 4 |
+```
+| Column Header 1 | Column Header 2 |
+| --- | --- |
+| cell 1 | cell 2 |
+| cell 3 | cell 4 |
 
-![Alt text](https://developers.google.com/web/updates/images/2014/11/theme-color-ss.png)
-
+```
+![Alt text](/pathto/image)
+```
 ![Alt text](/images/download.png)
