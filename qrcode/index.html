@@ -4,6 +4,25 @@
 <title>QRCode</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
+<style>
+#qrcode {
+    width: 150px;
+		height: 150px;
+		margin: 20px;
+}
+#code {
+    display: block;
+    font-family: monospace;
+    white-space: pre;
+		font-size: 1.1em;
+		padding: 30px;
+		background: #dddddd;
+		overflow: auto;
+}
+#code_value {
+		width: 300px;
+}
+</style>
 </head>
 <body>
 
@@ -11,11 +30,37 @@
 	function genQRCode() {
 		var c = document.getElementById("code_value").value;
 		c = window.btoa(c);
-		window.location.href = "qrcode.html?c="+c;
+		var obj = document.getElementById("qrcode");
+		obj.data = "qrcode.svg?c="+c;
+		//window.location.href = "qrcode.html?c="+c;
+		var code = document.getElementById("code");
+		var sample = "\
+&lt;head&gt;\n\
+	&lt;style&gt;\n\
+	#qrcode {\n\
+		width: 150px;\n\
+		height: 150px;\n\
+		margin: 20px;\n\
+	}\n\
+	&lt;/style&gt;\n\
+&lt;/head&gt;\n\
+&lt;body&gt;\n\
+	&lt;object id=&quot;qrcode&quot; data=&quot;http://manson.aieio.com/qrcode/qrcode.svg?c=__CODE__&quot; type=&quot;image/svg+xml&quot;&gt;&lt;/object&gt;\n\
+&lt;/body&gt;\n";
+		sample = sample.replace('__CODE__', c);
+		code.innerHTML = sample;
 	}
 	</script>
 
-	<input type="text" id="code_value"><br>
-	<button onclick="genQRCode()">Click me</button>
-
+	<input type="text" id="code_value" value="https://manson.aieio.com"><br>
+	<button onclick="genQRCode()">Update QR Code</button>
+	<br>
+	<object id="qrcode" data="" type="image/svg+xml"></object>
+	<br><br>
+	HTML Sample:<br>
+	<pre id="code">
+	</pre>
+	<script>
+	genQRCode();
+	</script>
 </body>
