@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "QRCode in SVG, no client side code needed, not even Javascript"
+title: "QRCode in SVG, no client side code needed, not even a Javascript"
 date: 2018-06-02
 tags: [development, technology]
 ---
