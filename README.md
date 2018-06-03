@@ -1,3 +1,0 @@
-# manson.github.io
-
-![a1](images/test/CmRaAAAA9QKaB194D3_WVHrGc5PczVm65LaRl9G82hARsMgZHDGbNix7FHVdKYroGbgqGgLxz102NzmnyU6trCm2R8h-9iOl0GvumiO77XixO1jaaL5XBJfi3SV106w3v8lcTzZ3EhCczZjR2K1uSHiqB6aoICoMGhRyeTw8T8jua_d9iWRdUmMf7y9yDA.jpg)
