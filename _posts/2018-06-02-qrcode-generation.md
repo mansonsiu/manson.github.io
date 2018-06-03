@@ -9,6 +9,5 @@ Proud to make this public today. Created a tool to generate custom QRCode online
 
 
 Try it out and generate your custom QRCode here:
-
 [QRCode in SVG](https://manson.aieio.com/qrcode/)
 
